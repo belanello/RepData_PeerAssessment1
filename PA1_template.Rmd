@@ -42,7 +42,7 @@ print.xtable(xt, type='html')
   
     
 2.Make a histogram of the total number of steps taken each day.  
-```{r mean_histogram, fig.width=5,fig.height=4}
+```{r meanHistogram, fig.width=5,fig.height=4}
 
 g <- ggplot(totalSteps, aes(x=total))
 g <- g + geom_histogram(binwidth=500)
@@ -107,7 +107,7 @@ naVals
 ```  
 
 2.Devise a strategy for filling in all of the missing values in the dataset.  
--- I filled NAs with the mean value for the each interval that were already calculated previously.  
+-- I filled NAs with the mean value for the each interval that were calculated previously.  
 
 ```{r fillNA}  
 

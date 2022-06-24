@@ -37,7 +37,7 @@ print.xtable(xt, type='html')
 ```
 
 <!-- html table generated in R 4.2.0 by xtable 1.8-4 package -->
-<!-- Fri Jun 24 17:31:32 2022 -->
+<!-- Fri Jun 24 18:54:43 2022 -->
 <table border=1>
 <tr> <th>  </th> <th> date </th> <th> total </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> 2012-10-02 </td> <td align="right"> 126 </td> </tr>
@@ -60,7 +60,7 @@ g <- g + labs(title='Total Number of Steps per day (for 61 days)',
 print(g)
 ```
 
-![](PA1_template_files/figure-html/mean_histogram-1.png)<!-- -->
+![](PA1_template_files/figure-html/meanHistogram-1.png)<!-- -->
 
 3.Calculate and report the mean and median of the total number of steps taken per day.  
 
@@ -126,7 +126,7 @@ naVals
 ```
 
 2.Devise a strategy for filling in all of the missing values in the dataset.  
--- I filled NAs with the mean value for the each interval that were already calculated previously.  
+-- I filled NAs with the mean value for the each interval that were calculated previously.  
 
 
 ```r
@@ -151,7 +151,7 @@ print.xtable(xt, type='html')
 ```
 
 <!-- html table generated in R 4.2.0 by xtable 1.8-4 package -->
-<!-- Fri Jun 24 17:31:34 2022 -->
+<!-- Fri Jun 24 18:54:45 2022 -->
 <table border=1>
 <tr> <th>  </th> <th> steps </th> <th> date </th> <th> interval </th>  </tr>
   <tr> <td align="right"> 1 </td> <td align="right"> 1.72 </td> <td> 2012-10-01 </td> <td align="right">   0 </td> </tr>

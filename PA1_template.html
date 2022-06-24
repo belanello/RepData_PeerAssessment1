@@ -195,7 +195,7 @@ totalSteps$date &lt;- as.character(totalSteps$date)
 xt &lt;- xtable(head(totalSteps))
 print.xtable(xt, type=&#39;html&#39;)</code></pre>
 <!-- html table generated in R 4.2.0 by xtable 1.8-4 package -->
-<!-- Fri Jun 24 17:31:32 2022 -->
+<!-- Fri Jun 24 18:54:43 2022 -->
 <table border="1">
 <tr>
 <th>
@@ -323,7 +323,7 @@ naVals</code></pre>
 <pre><code>##    steps     date interval 
 ##     2304        0        0</code></pre>
 <p>2.Devise a strategy for filling in all of the missing values in the dataset.<br />
-– I filled NAs with the mean value for the each interval that were already calculated previously.</p>
+– I filled NAs with the mean value for the each interval that were calculated previously.</p>
 <pre class="r"><code>naRows &lt;- is.na(data$steps)
 
 for (i in 1:sum(naRows)){
@@ -339,7 +339,7 @@ dataDisplay$date &lt;- as.character(dataDisplay$date)
 xt &lt;- xtable(head(dataDisplay,10))
 print.xtable(xt, type=&#39;html&#39;)</code></pre>
 <!-- html table generated in R 4.2.0 by xtable 1.8-4 package -->
-<!-- Fri Jun 24 17:31:34 2022 -->
+<!-- Fri Jun 24 18:54:45 2022 -->
 <table border="1">
 <tr>
 <th>
